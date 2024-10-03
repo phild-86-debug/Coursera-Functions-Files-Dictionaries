@@ -2,4 +2,11 @@
 *.ipynb_checkpoints
 # ignore all text files
 *.txt
+# ignore all .swp files
+*.swp
+# ignore all files ending with ~ (copies)
+*.*~
+# ignore all virtual files
+*.*virtual*
+
 
