@@ -1,2 +1,5 @@
 # ignore all checkpoint files
 *.ipynb_checkpoints
+# ignore all text files
+*.txt
+
