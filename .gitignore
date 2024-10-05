@@ -8,5 +8,8 @@
 *.*~
 # ignore all virtual files
 *.*virtual*
+# ignore all csv files
+*.*csv
+
 
 
