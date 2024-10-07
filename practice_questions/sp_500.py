@@ -17,19 +17,14 @@ with open(fname, 'r') as f:
             elif i == 2:
                 
                 year = int(date[2])
-        # print("month: ", month)
-        # print("year: ", year)
-        # if (month >= 6 and year >= 2016) and  (year <= 2017 and month <=5):
+       
         if (month >= 6 and year == 2016) or (year == 2017 and month <= 5):
            
             row = lin.split(',')
             closing_prices.append(row[1])
             long_term_interest.append(row[5])
         
-    # print(month)
-    # print(year)
-    # print('closing_prices: ', closing_prices)
-    # print('long_term_interest: ', long_term_interest)
+  
     sum_cp = 0  
     for num in closing_prices:
         sum_cp += float(num)
